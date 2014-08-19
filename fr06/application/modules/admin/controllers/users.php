@@ -1,6 +1,6 @@
 <?php 
 
-class Users  extends CI_Controller 
+class Users  extends  BaseAdminController 
 {
 	public function __construct()
 	{
@@ -10,6 +10,6 @@ class Users  extends CI_Controller
 	public function index($start = 0, $order = 'ASC') 
 	{
 		echo $start;	
-		echo $order;	
+		echo $order;
 	}
 }

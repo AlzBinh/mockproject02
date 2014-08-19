@@ -26,7 +26,6 @@
 | 6. Models
 |
 */
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Packges
@@ -80,7 +79,7 @@ $autoload['helper'] = array('url','form');
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('cms_admin_config');
 
 
 /*
